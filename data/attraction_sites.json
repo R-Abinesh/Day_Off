@@ -1,62 +1,23 @@
 [
   {
     "id": 1,
-    "name": "Marudamalai Temple",
-    "latitude": 11.0486,
-    "longitude": 76.8647
+    "name": "Marudhamalai Temple",
+    "latitude": 11.0420,
+    "longitude": 76.8610,
+    "rating": 4.6
   },
   {
     "id": 2,
-    "name": "Perur Pateeswarar Temple",
-    "latitude": 10.9632,
-    "longitude": 76.8789
+    "name": "VOC Park and Zoo",
+    "latitude": 11.0055,
+    "longitude": 76.9612,
+    "rating": 4.2
   },
   {
     "id": 3,
-    "name": "Velliangiri Hills",
-    "latitude": 10.9867,
-    "longitude": 76.7300
-  },
-  {
-    "id": 4,
-    "name": "Siruvani Waterfalls",
-    "latitude": 10.9330,
-    "longitude": 76.7000
-  },
-  {
-    "id": 5,
-    "name": "Aliyar Dam",
-    "latitude": 10.4870,
-    "longitude": 76.9747
-  },
-  {
-    "id": 6,
-    "name": "Brookefields Mall",
-    "latitude": 11.0183,
-    "longitude": 76.9675
-  },
-  {
-    "id": 7,
-    "name": "Gedee Car Museum",
-    "latitude": 11.0169,
-    "longitude": 76.9550
-  },
-  {
-    "id": 8,
-    "name": "VOC Park and Zoo",
-    "latitude": 11.0046,
-    "longitude": 76.9620
-  },
-  {
-    "id": 9,
-    "name": "Kovai Kutralam Falls",
-    "latitude": 10.9410,
-    "longitude": 76.7310
-  },
-  {
-    "id": 10,
-    "name": "Isha Yoga Center",
-    "latitude": 10.9717,
-    "longitude": 76.7450
+    "name": "Black Thunder",
+    "latitude": 11.3100,
+    "longitude": 76.9400,
+    "rating": 4.5
   }
 ]

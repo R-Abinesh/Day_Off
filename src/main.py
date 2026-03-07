@@ -1,63 +1,27 @@
 import json
-import math
-
-# -------------------------
-# 1. Load attractions
-# -------------------------
-with open("attraction_sites.json", "r") as file:
-    attractions = json.load(file)
+from scorer import score_places
 
 
-# -------------------------
-# 2. Haversine function
-# -------------------------
-def haversine(lat1, lon1, lat2, lon2):
-    R = 6371  # Earth radius in km
-
-    dLat = math.radians(lat2 - lat1)
-    dLon = math.radians(lon2 - lon1)
-
-    a = (
-        math.sin(dLat / 2) ** 2
-        + math.cos(math.radians(lat1))
-        * math.cos(math.radians(lat2))
-        * math.sin(dLon / 2) ** 2
-    )
-
-    c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
-    return R * c
+def load_places(file_path):
+    with open(file_path, "r") as f:
+        return json.load(f)
 
 
-# -------------------------
-# 3. User location input
-# -------------------------
-user_lat = float(input("Enter your latitude: "))
-user_lon = float(input("Enter your longitude: "))
+if __name__ == "__main__":
 
+    # Example user location (Coimbatore city center)
+    user_lat = 11.0168
+    user_lon = 76.9558
 
-# -------------------------
-# 4. Calculate distances
-# -------------------------
-for attraction in attractions:
-    distance = haversine(
-        user_lat,
-        user_lon,
-        attraction["latitude"],
-        attraction["longitude"],
-    )
-    attraction["distance_km"] = round(distance, 2)
+    places = load_places("../data/attraction_sites.json")
 
+    ranked_places = score_places(user_lat, user_lon, places)
 
-# -------------------------
-# 5. Sort by distance
-# -------------------------
-attractions.sort(key=lambda x: x["distance_km"])
+    print("\nRecommended Attractions:\n")
 
-
-# -------------------------
-# 6. Show top 5
-# -------------------------
-print("\nTop 5 nearest attractions:\n")
-
-for attraction in attractions[:5]:
-    print(f"{attraction['name']} - {attraction['distance_km']} km")
+    for place in ranked_places:
+        print(
+            f"{place['name']} | "
+            f"Distance: {round(place['distance_km'],2)} km | "
+            f"Score: {place['score']}"
+        )
