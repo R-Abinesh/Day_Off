@@ -1,23 +1,80 @@
 [
   {
-    "id": 1,
     "name": "Marudhamalai Temple",
-    "latitude": 11.0420,
-    "longitude": 76.8610,
-    "rating": 4.6
+    "latitude": 11.0550,
+    "longitude": 76.7340,
+    "rating": 4.7,
+    "category": "temple",
+    "visit_duration": 120,
+    "open_hours": [
+      {"start": "06:00", "end": "12:00"},
+      {"start": "16:00", "end": "21:00"}
+    ]
   },
   {
-    "id": 2,
-    "name": "VOC Park and Zoo",
-    "latitude": 11.0055,
+    "name": "Isha Yoga Center",
+    "latitude": 10.9860,
+    "longitude": 76.7409,
+    "rating": 4.8,
+    "category": "spiritual",
+    "visit_duration": 180,
+    "open_hours": [
+      {"start": "06:00", "end": "20:00"}
+    ]
+  },
+  {
+    "name": "Gedee Car Museum",
+    "latitude": 10.9980,
     "longitude": 76.9612,
-    "rating": 4.2
+    "rating": 4.4,
+    "category": "museum",
+    "visit_duration": 90,
+    "open_hours": [
+      {"start": "10:00", "end": "18:00"}
+    ]
   },
   {
-    "id": 3,
-    "name": "Black Thunder",
-    "latitude": 11.3100,
-    "longitude": 76.9400,
-    "rating": 4.5
+    "name": "Prozone Mall",
+    "latitude": 11.0461,
+    "longitude": 77.0109,
+    "rating": 4.3,
+    "category": "shopping",
+    "visit_duration": 180,
+    "open_hours": [
+      {"start": "10:00", "end": "22:00"}
+    ]
+  },
+  {
+    "name": "VOC Park and Zoo",
+    "latitude": 11.0051,
+    "longitude": 76.9610,
+    "rating": 4.2,
+    "category": "zoo",
+    "visit_duration": 90,
+    "open_hours": [
+      {"start": "10:00", "end": "17:30"}
+    ]
+  },
+  {
+    "name": "Velliangiri Hills Trek",
+    "latitude": 10.9755,
+    "longitude": 76.6903,
+    "rating": 4.8,
+    "category": "trek",
+    "visit_duration": 240,
+    "open_hours": [
+      {"start": "19:00", "end": "23:59"}
+    ]
+  },
+  {
+    "name": "Black Thunder Theme Park",
+    "latitude": 11.0955,
+    "longitude": 76.9013,
+    "rating": 4.5,
+    "category": "amusement",
+    "visit_duration": 200,
+    "open_hours": [
+      {"start": "10:00", "end": "17:30"}
+    ]
   }
 ]

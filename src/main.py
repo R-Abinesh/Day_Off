@@ -1,27 +1,23 @@
-import json
+from loader import load_attractions
 from scorer import score_places
+import config
+from distance import haversine
+from schedule import is_place_open_for_visit, estimated_travel_time
 
+places=load_attractions("../data/attraction_sites.json")
 
-def load_places(file_path):
-    with open(file_path, "r") as f:
-        return json.load(f)
+rating_sorted_places=score_places(config.USER_LAT, config.USER_LONG, places)
 
-
-if __name__ == "__main__":
-
-    # Example user location (Coimbatore city center)
-    user_lat = 11.0168
-    user_lon = 76.9558
-
-    places = load_places("../data/attraction_sites.json")
-
-    ranked_places = score_places(user_lat, user_lon, places)
-
-    print("\nRecommended Attractions:\n")
-
-    for place in ranked_places:
-        print(
-            f"{place['name']} | "
-            f"Distance: {round(place['distance_km'],2)} km | "
-            f"Score: {place['score']}"
+for place in rating_sorted_places:
+    distance = haversine(
+            config.USER_LAT,
+            config.USER_LONG,
+            place["latitude"],
+            place["longitude"]
         )
+    travel_time = estimated_travel_time(distance)
+    can_visit, start_time = is_place_open_for_visit(place,config.START_TIME + travel_time)
+    if can_visit:
+        print(place["name"], place["score"])
+
+

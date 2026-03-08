@@ -49,5 +49,4 @@ def score_places(user_lat, user_lon, places):
         key=lambda x: x["score"],
         reverse=True
     )
-
     return ranked
