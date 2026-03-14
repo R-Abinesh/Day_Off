@@ -74,3 +74,9 @@ def is_place_open_for_visit(place, arrival_time):
                 end_time = effective_start + place['visit_duration']
                 return True, effective_start, end_time
     return False, None, None
+
+def get_active_meal_window(curr_time):
+    for meal, window in config.MEAL_WINDOWS.items():
+        if window["start"] <= curr_time <= window["end"]:
+            return meal   # returns "breakfast", "lunch", "snack" or "dinner"
+    return None       

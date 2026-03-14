@@ -1,0 +1,238 @@
+[
+  {
+    "name": "Shree Anandhaas",
+    "category": "food",
+    "meal_type": ["breakfast", "lunch", "dinner", "snack"],
+    "latitude": 11.010685,
+    "longitude": 76.987553,
+    "rating": 4.3,
+    "meal_durations": {
+      "breakfast": 35,
+      "lunch": 50,
+      "dinner": 55,
+      "snack": 25
+    },
+    "open_hours": [
+      {"start": "07:00", "end": "22:30"}
+    ]
+  },
+  {
+    "name": "Annapoorna Gowrishankar",
+    "category": "food",
+    "meal_type": ["breakfast", "lunch", "dinner", "snack"],
+    "latitude": 11.016844,
+    "longitude": 76.955832,
+    "rating": 4.5,
+    "meal_durations": {
+      "breakfast": 30,
+      "lunch": 45,
+      "dinner": 50,
+      "snack": 20
+    },
+    "open_hours": [
+      {"start": "06:30", "end": "22:30"}
+    ]
+  },
+  {
+    "name": "Haribhavanam",
+    "category": "food",
+    "meal_type": ["lunch", "dinner"],
+    "latitude": 11.008429,
+    "longitude": 76.974990,
+    "rating": 4.4,
+    "meal_durations": {
+      "lunch": 60,
+      "dinner": 70
+    },
+    "open_hours": [
+      {"start": "11:00", "end": "23:00"}
+    ]
+  },
+  {
+    "name": "Junior Kuppanna",
+    "category": "food",
+    "meal_type": ["lunch", "dinner"],
+    "latitude": 11.022350,
+    "longitude": 76.958800,
+    "rating": 4.2,
+    "meal_durations": {
+      "lunch": 55,
+      "dinner": 65
+    },
+    "open_hours": [
+      {"start": "11:30", "end": "23:00"}
+    ]
+  },
+  {
+    "name": "Dindigul Thalappakatti",
+    "category": "food",
+    "meal_type": ["lunch", "dinner"],
+    "latitude": 11.016200,
+    "longitude": 76.971800,
+    "rating": 4.2,
+    "meal_durations": {
+      "lunch": 55,
+      "dinner": 65
+    },
+    "open_hours": [
+      {"start": "11:30", "end": "23:00"}
+    ]
+  },
+  {
+    "name": "Valarmathi Mess",
+    "category": "food",
+    "meal_type": ["lunch", "dinner"],
+    "latitude": 11.001836,
+    "longitude": 76.975934,
+    "rating": 4.3,
+    "meal_durations": {
+      "lunch": 50,
+      "dinner": 60
+    },
+    "open_hours": [
+      {"start": "12:00", "end": "16:00"},
+      {"start": "19:00", "end": "22:45"}
+    ]
+  },
+  {
+    "name": "Kadhambam Restaurant",
+    "category": "food",
+    "meal_type": ["lunch", "dinner"],
+    "latitude": 11.020007,
+    "longitude": 76.960379,
+    "rating": 4.2,
+    "meal_durations": {
+      "lunch": 55,
+      "dinner": 65
+    },
+    "open_hours": [
+      {"start": "12:00", "end": "23:00"}
+    ]
+  },
+  {
+    "name": "Kovai Kitchen",
+    "category": "food",
+    "meal_type": ["breakfast", "lunch", "dinner"],
+    "latitude": 11.035746,
+    "longitude": 77.037419,
+    "rating": 4.6,
+    "meal_durations": {
+      "breakfast": 45,
+      "lunch": 60,
+      "dinner": 75
+    },
+    "open_hours": [
+      {"start": "06:30", "end": "23:00"}
+    ]
+  },
+  {
+    "name": "Bird on Tree",
+    "category": "food",
+    "meal_type": ["breakfast", "lunch", "dinner", "snack"],
+    "latitude": 11.011500,
+    "longitude": 76.952200,
+    "rating": 4.3,
+    "meal_durations": {
+      "breakfast": 35,
+      "lunch": 60,
+      "dinner": 60,
+      "snack": 25
+    },
+    "open_hours": [
+      {"start": "08:00", "end": "22:30"}
+    ]
+  },
+  {
+    "name": "Hidden Fork Bistro",
+    "category": "food",
+    "meal_type": ["breakfast", "lunch", "dinner", "snack"],
+    "latitude": 11.015300,
+    "longitude": 76.953400,
+    "rating": 4.3,
+    "meal_durations": {
+      "breakfast": 35,
+      "lunch": 60,
+      "dinner": 60,
+      "snack": 25
+    },
+    "open_hours": [
+      {"start": "08:00", "end": "22:00"}
+    ]
+  },
+  {
+    "name": "Cream Centre",
+    "category": "food",
+    "meal_type": ["lunch", "dinner", "snack"],
+    "latitude": 11.021600,
+    "longitude": 76.960800,
+    "rating": 4.3,
+    "meal_durations": {
+      "lunch": 55,
+      "dinner": 60,
+      "snack": 25
+    },
+    "open_hours": [
+      {"start": "11:30", "end": "23:00"}
+    ]
+  },
+  {
+    "name": "That's Y Food",
+    "category": "food",
+    "meal_type": ["lunch", "dinner"],
+    "latitude": 11.018900,
+    "longitude": 76.959100,
+    "rating": 4.2,
+    "meal_durations": {
+      "lunch": 55,
+      "dinner": 60
+    },
+    "open_hours": [
+      {"start": "11:00", "end": "23:00"}
+    ]
+  },
+  {
+    "name": "Sri Krishna Sweets",
+    "category": "food",
+    "meal_type": ["snack"],
+    "latitude": 11.008800,
+    "longitude": 76.955900,
+    "rating": 4.4,
+    "meal_durations": {
+      "snack": 25
+    },
+    "open_hours": [
+      {"start": "09:00", "end": "21:30"}
+    ]
+  },
+  {
+    "name": "Krishna Sweets RS Puram",
+    "category": "food",
+    "meal_type": ["snack"],
+    "latitude": 11.007900,
+    "longitude": 76.949200,
+    "rating": 4.3,
+    "meal_durations": {
+      "snack": 25
+    },
+    "open_hours": [
+      {"start": "09:00", "end": "21:30"}
+    ]
+  },
+  {
+    "name": "A2B Adyar Ananda Bhavan",
+    "category": "food",
+    "meal_type": ["breakfast", "lunch", "dinner", "snack"],
+    "latitude": 11.019800,
+    "longitude": 76.964500,
+    "rating": 4.2,
+    "meal_durations": {
+      "breakfast": 30,
+      "lunch": 45,
+      "dinner": 50,
+      "snack": 20
+    },
+    "open_hours": [
+      {"start": "07:00", "end": "22:30"}
+    ]
+  }
+]
